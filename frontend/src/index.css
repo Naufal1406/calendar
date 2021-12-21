@@ -1,0 +1,121 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+@font-face {
+  font-family: "OpenSansCondensed";
+  src: url("../src/url/font/OpenSansCondensed-Light.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Open Sans Condensed', sans-serif; */
+  font-family : "OpenSansCondensed";
+  font-size: 20px;
+  font-weight: bold;  
+}
+
+.content {
+  padding: 0;
+  margin: 0;
+}
+.titleWeb {
+  padding: 5px;
+  color: black;
+}
+
+.titleWeb h3 {
+  padding: 5px;
+}
+
+.contentSection {
+  margin: 10px;
+}
+.addTask {
+  margin-top: 10px;
+  }
+.card-body {
+  margin: 0;
+}
+
+.task input {
+  border: 2px solid black;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.fullCalender {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.form-group {
+  margin-bottom: 12px;
+}
+
+.filterCalendar {
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.filterSection {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px 15px 20px;
+  margin: 0 50px 50px 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#appSelector {
+  border: 1px solid black;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+.titleTable {
+  text-align: center;
+}
+
+.addTask {
+  margin-bottom: 12px;
+}
+
+input.fromTime {
+  margin-left: 12px;
+  text-align: center;
+}
+
+.header , .data , .filter {
+  text-align: center;
+}
+
+.action {
+  margin: 10px;
+  text-align: center;
+}
+
+.actionBtn {
+  text-align: center;
+}
+
+#dataTables {
+  margin: 50px;
+}
+
+#buttonExport {
+  margin: 15px;
+}
